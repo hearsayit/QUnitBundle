@@ -1,0 +1,4 @@
+# Copyright 2011 Hearsay.
+hearsay_q_unit_response_response:
+    pattern:  /response/{code}
+    defaults: { _controller: HearsayQUnitBundle:Response:response }
